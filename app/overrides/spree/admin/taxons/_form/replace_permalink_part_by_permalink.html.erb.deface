@@ -1,6 +1,0 @@
-<!-- replace "code[erb-loud]:contains('f.field_container :permalink_part do')" closing_selector 'code[erb-silent]:contains("end")' -->
-
-<%= f.field_container :permalink do %>
-  <%= f.label :permalink, t(:permalink) %><span class="required">*</span><br />
-  <%= "#{@taxon.permalink_prefix}/" %><%= f.text_field :permalink, :value => @taxon.permalink_name %>
-<% end %>
