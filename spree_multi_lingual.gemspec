@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
+  s.add_dependency 'spree_core', '~> 1.3'
   s.add_dependency 'spree_promo', '~> 1.3'
   s.add_dependency 'i18n'
   s.add_dependency 'globalize3', '0.3.0'
